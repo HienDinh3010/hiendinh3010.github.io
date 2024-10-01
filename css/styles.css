@@ -1,0 +1,29 @@
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #f0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1, h2 {
+    color: #10dbc0;
+}
+ul {
+    list-style-type: square;
+}
+.images img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.favorite-movies a {
+    color: #10db5e;
+    text-decoration: none;
+}
+.favorite-movies a:hover {
+    text-decoration: underline;
+}
+p::first-letter {
+    font-size: 1.5em;
+}
